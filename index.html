@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="one">
+      <h1>
+        Learn to code by watching others
+      </h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </section>
+    <section class="two">
+      <button>
+        <p><span>Try it free 7 days</span> then $20/mo. thereother</p>
+      </button>
+      <form>
+        <input type="text" placeholder="First Name" id="FirstName">
+        <div id="fnameError" class="hidden">First Name cannot be empty<img src="images/icon-error.svg"></div>
+        <input type="text" placeholder="Last Name" id="LastName">
+        <div id="lnameError" class="hidden">Last Name cannot be empty<img src="images/icon-error.svg"></div>
+        <input type="email" placeholder="Email Address" id="Email">
+        <div id="mailError" class="hidden">Looks like this not an email<img src="images/icon-error.svg"></div>
+        <input type="password" placeholder="Password" id="Password">
+        <div id="pswError" class="hidden">Password cannot be empty<img src="images/icon-error.svg"></div>
+        <input id="Claim" value="Claim your free trial" type="submit"> 
+        <div class="condition">
+          By clicking the button, you are agreeing to our <span>Terms and Services</span>
+        </div>
+      </form>
+    </section>
+  </div>
+  </footer>
+</body>
+</html>
